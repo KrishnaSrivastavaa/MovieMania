@@ -6,7 +6,7 @@ import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 //f6362dff
-const API_URL = 'http://www.omdbapi.com?apikey=f6362dff';
+const API_URL = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_API_KEY}`;
 // const movie1 = {
 //     Title: 'Spiderman in Cannes', 
 //     Year: '2016', 
